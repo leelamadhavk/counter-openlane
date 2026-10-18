@@ -1,0 +1,5 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/home/leela_madhav/counter/runs/RUN_2026-10-18_09-17-14/tmp/35f42476bc0c4033a9b6b56d80da9e2f.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/home/leela_madhav/counter/runs/RUN_2026-10-18_09-17-14/tmp/35f42476bc0c4033a9b6b56d80da9e2f.bb.v"

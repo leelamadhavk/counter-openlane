@@ -1,0 +1,85 @@
+Reading OpenROAD database at '/home/leela_madhav/counter/runs/RUN_2026-10-18_09-30-32/20-openroad-generatepdn/counter.odb'…
+Reading library file at '/home/leela_madhav/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading design constraints file at '/home/leela_madhav/counter/counter.sdc'…
+[INFO] No information on clock propagation in input SDC file-- propagating all clocks.
++ global_placement -density 0.1405255 -skip_io -pad_right 0 -pad_left 0 -init_wirelength_coef 0.25
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  5.520 10.880 ) ( 94.300 87.040 ) um
+[INFO GPL-0006] NumInstances:               159
+[INFO GPL-0007] NumPlaceInstances:           13
+[INFO GPL-0008] NumFixedInstances:          146
+[INFO GPL-0009] NumDummyInstances:            0
+[INFO GPL-0010] NumNets:                     15
+[INFO GPL-0011] NumPins:                     49
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 100.000 100.000 ) um
+[INFO GPL-0013] CoreBBox: (  5.520 10.880 ) ( 94.300 87.040 ) um
+[INFO GPL-0016] CoreArea:              6761.485 um^2
+[INFO GPL-0017] NonPlaceInstsArea:      322.810 um^2
+[INFO GPL-0018] PlaceInstsArea:         161.405 um^2
+[INFO GPL-0019] Util:                     2.507 %
+[INFO GPL-0020] StdInstsArea:           161.405 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[INFO GPL-0031] FillerInit:NumGCells:        76
+[INFO GPL-0032] FillerInit:NumGNets:         15
+[INFO GPL-0033] FillerInit:NumGPins:         49
+[INFO GPL-0023] TargetDensity:            0.141
+[INFO GPL-0024] AvrgPlaceInstArea:       12.416 um^2
+[INFO GPL-0025] IdealBinArea:            88.352 um^2
+[INFO GPL-0026] IdealBinCnt:                 76
+[INFO GPL-0027] TotalBinArea:          6761.485 um^2
+[INFO GPL-0028] BinCnt:         8      8
+[INFO GPL-0029] BinSize: ( 11.098  9.520 )
+[INFO GPL-0030] NumBins: 64
+[NesterovSolve] Iter:    1 overflow: 0.640 HPWL: 33970
+[NesterovSolve] Iter:   10 overflow: 0.640 HPWL: 29692
+[NesterovSolve] Iter:   20 overflow: 0.640 HPWL: 29688
+[NesterovSolve] Iter:   30 overflow: 0.640 HPWL: 29687
+[NesterovSolve] Iter:   40 overflow: 0.640 HPWL: 29686
+[NesterovSolve] Iter:   50 overflow: 0.640 HPWL: 29691
+[NesterovSolve] Iter:   60 overflow: 0.640 HPWL: 29706
+[NesterovSolve] Iter:   70 overflow: 0.640 HPWL: 29719
+[NesterovSolve] Iter:   80 overflow: 0.640 HPWL: 29749
+[NesterovSolve] Iter:   90 overflow: 0.640 HPWL: 29924
+[NesterovSolve] Iter:  100 overflow: 0.640 HPWL: 30360
+[NesterovSolve] Iter:  110 overflow: 0.640 HPWL: 31141
+[NesterovSolve] Iter:  120 overflow: 0.640 HPWL: 32470
+[NesterovSolve] Iter:  130 overflow: 0.640 HPWL: 34233
+[NesterovSolve] Iter:  140 overflow: 0.640 HPWL: 35826
+[NesterovSolve] Iter:  150 overflow: 0.639 HPWL: 35670
+[NesterovSolve] Iter:  160 overflow: 0.637 HPWL: 33077
+[NesterovSolve] Iter:  170 overflow: 0.637 HPWL: 34439
+[NesterovSolve] Iter:  180 overflow: 0.638 HPWL: 33826
+[NesterovSolve] Iter:  190 overflow: 0.638 HPWL: 33008
+[NesterovSolve] Iter:  200 overflow: 0.636 HPWL: 33457
+[NesterovSolve] Iter:  210 overflow: 0.637 HPWL: 33561
+[NesterovSolve] Iter:  220 overflow: 0.638 HPWL: 33635
+[NesterovSolve] Iter:  230 overflow: 0.640 HPWL: 34884
+[NesterovSolve] Iter:  240 overflow: 0.640 HPWL: 40014
+[NesterovSolve] Iter:  250 overflow: 0.563 HPWL: 84927
+[NesterovSolve] Iter:  260 overflow: 0.518 HPWL: 86705
+[NesterovSolve] Iter:  270 overflow: 0.481 HPWL: 95868
+[NesterovSolve] Iter:  280 overflow: 0.420 HPWL: 118189
+[NesterovSolve] Iter:  290 overflow: 0.354 HPWL: 140295
+[NesterovSolve] Iter:  300 overflow: 0.299 HPWL: 155410
+[NesterovSolve] Iter:  310 overflow: 0.234 HPWL: 155374
+[NesterovSolve] Iter:  320 overflow: 0.181 HPWL: 164851
+[NesterovSolve] Iter:  330 overflow: 0.153 HPWL: 168563
+[NesterovSolve] Iter:  340 overflow: 0.123 HPWL: 175739
+[NesterovSolve] Iter:  350 overflow: 0.114 HPWL: 184192
+[NesterovSolve] Finished with Overflow: 0.097989
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                                56     210.20
+  Tap cell                                 90     112.61
+  Sequential cell                           4      85.08
+  Multi-Input combinational cell            9      76.32
+  Total                                   159     484.21
+Writing OpenROAD database to '/home/leela_madhav/counter/runs/RUN_2026-10-18_09-30-32/23-openroad-globalplacementskipio/counter.odb'…
+Writing netlist to '/home/leela_madhav/counter/runs/RUN_2026-10-18_09-30-32/23-openroad-globalplacementskipio/counter.nl.v'…
+Writing powered netlist to '/home/leela_madhav/counter/runs/RUN_2026-10-18_09-30-32/23-openroad-globalplacementskipio/counter.pnl.v'…
+Writing layout to '/home/leela_madhav/counter/runs/RUN_2026-10-18_09-30-32/23-openroad-globalplacementskipio/counter.def'…
+Writing timing constraints to '/home/leela_madhav/counter/runs/RUN_2026-10-18_09-30-32/23-openroad-globalplacementskipio/counter.sdc'…

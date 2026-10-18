@@ -1,0 +1,51 @@
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /home/leela_madhav/counter/runs/RUN_2026-10-18_09-30-32/tmp/ad3d05839469440bbff9788349b2b280.lib ",
+   "modules": {
+      "\\counter": {
+         "num_wires":         12,
+         "num_wire_bits":     15,
+         "num_pub_wires":     3,
+         "num_pub_wire_bits": 6,
+         "num_ports":         3,
+         "num_port_bits":     6,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         13,
+         "area":              161.404800,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a21oi_2": 2,
+            "sky130_fd_sc_hd__a31o_2": 2,
+            "sky130_fd_sc_hd__a41o_2": 1,
+            "sky130_fd_sc_hd__and2b_2": 1,
+            "sky130_fd_sc_hd__dfxtp_2": 4,
+            "sky130_fd_sc_hd__nor2_2": 2,
+            "sky130_fd_sc_hd__o21a_2": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         12,
+         "num_wire_bits":     15,
+         "num_pub_wires":     3,
+         "num_pub_wire_bits": 6,
+         "num_ports":         3,
+         "num_port_bits":     6,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         13,
+         "area":              161.404800,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a21oi_2": 2,
+            "sky130_fd_sc_hd__a31o_2": 2,
+            "sky130_fd_sc_hd__a41o_2": 1,
+            "sky130_fd_sc_hd__and2b_2": 1,
+            "sky130_fd_sc_hd__dfxtp_2": 4,
+            "sky130_fd_sc_hd__nor2_2": 2,
+            "sky130_fd_sc_hd__o21a_2": 1
+         }
+      }
+}
+

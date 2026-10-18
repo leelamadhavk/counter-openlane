@@ -1,0 +1,20 @@
+digraph "counter" {
+label="counter";
+rankdir="LR";
+remincross=true;
+n3 [ shape=octagon, label="count", color="black", fontcolor="black"];
+n4 [ shape=octagon, label="rst", color="black", fontcolor="black"];
+n5 [ shape=octagon, label="clk", color="black", fontcolor="black"];
+v0 [ label="1" ];
+c9 [ shape=record, label="{{<p6> A|<p7> B}|$2\n$add|{<p8> Y}}",  ];
+x2 [ shape=record, style=rounded, label="<s0> 3:0 - 3:0 ", color="black", fontcolor="black" ];
+p1 [shape=box, style=rounded, label="PROC $1\n/home/leela_madhav/counter/src/counter.v:6.1-9.4", ];
+c9:p8:e -> x2:s0:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+p1:e -> n3:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n3:e -> c9:p6:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n3:e -> p1:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n4:e -> p1:w [color="black", fontcolor="black", label=""];
+n5:e -> p1:w [color="black", fontcolor="black", label=""];
+v0:e -> c9:p7:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+x2:e -> p1:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+}
